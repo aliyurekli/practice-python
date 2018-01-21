@@ -1,0 +1,11 @@
+
+	The RecSys Challenge 2018 will be organized by Spotify, The University of Massachusetts, Amherst, and Johannes Kepler University, Linz. Spotify is an online music streaming service with over 140 million active users and over 30 million tracks. One of its popular features is the ability to create playlists, and the service currently hosts over 2 billion playlists. 
+	
+	This year’s challenge focuses on music recommendation, specifically the challenge of automatic playlist continuation. By suggesting appropriate songs to add to a playlist, a Recommender System can increase user engagement by making playlist creation easier, as well as extending listening beyond the end of existing playlists.
+	
+	As part of this challenge, Spotify will be releasing a public dataset of playlists, consisting of a large number of playlist titles and associated track listings. The evaluation set will contain a set of playlists from which a number of tracks have been withheld. The task will be to predict the missing tracks in those playlists.
+	
+	A detailed description of the challenge can be found on this website (stay tuned!). Accepted contributions will be presented during the RecSys Challenge Workshop in 2018.
+	
+	For more information about the recent challenges and visions in music recommender systems research please refer to the following paper recently published by the challenge organizers:
+	M. Schedl, H. Zamani, C.-W. Chen, Y. Deldjoo, M. Elahi. "Current Challenges and Visions in Music Recommender Systems Research".To be announced!To be announced!
