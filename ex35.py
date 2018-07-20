@@ -22,17 +22,20 @@ def create_months():
     }
 
 
-if __name__ == '__main__':
+def count_birthday_months():
     months, birthday_holder = create_months(), {}
     existing_months = []
 
     with open("data/birthdays.json") as f:
         birthday_holder = json.load(f)
 
-    for k,v in birthday_holder.items():
+    for k, v in birthday_holder.items():
         m_key = v.split("/")[0]
         existing_months.append(months[m_key])
 
-    c = Counter(existing_months)
+    return Counter(existing_months)
 
-    print(c)
+
+if __name__ == '__main__':
+    counted_birthdays = count_birthday_months()
+    print(counted_birthdays)
